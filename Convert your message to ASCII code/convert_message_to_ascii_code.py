@@ -3,5 +3,7 @@ print("Use ascii table to decryption.\n")
 
 for i in text:
     current_text = ord(i)
-    print(current_text, end=" ")
+    print(current_text, "-> ", end=" ")
 
+    symbols_of_the_message = chr(current_text)
+    print(symbols_of_the_message)
