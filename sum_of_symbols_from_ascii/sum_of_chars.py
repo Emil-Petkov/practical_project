@@ -1,10 +1,10 @@
 n_symbols = int(input())
 
-sum_score = 0
+sum = 0
 
 for iteration in range(n_symbols):
-    symbol_of_ascii = input()
-    convert = ord(symbol_of_ascii)
-    sum_score += int(convert)
+    symbol_from_ascii = input()
+    convert = ord(symbol_from_ascii)
+    sum += int(convert)
 
-print(f"The sum equals: {sum_score}")
+print(f"The sum equals: {sum}")
