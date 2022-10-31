@@ -1,40 +1,25 @@
 import random
+import string
 
-rock = 'Rock'
-scissors = 'Scissors'
-paper = 'Paper'
+print("Welcome to my Password Generator : )\n")
+
+n_n = int(input("How many numbers would you like in your password? "))
+n_l = int(input("How many letters would you like in your password? "))
+n_c = int(input("How many symbols would you like in your password? "))
+
+numbers = string.digits
+letters = string.ascii_letters
+symbols = ["~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "<", ">", "{", "}", "[", "]", "|"]
+
+password = []
+
+for n in range(1, n_n + 1):
+    password.append(random.choice(numbers))
+for l in range(1, n_l + 1):
+    password.append(random.choice(letters))
+for c in range(1, n_c + 1):
+    password.append(random.choice(symbols))
 
 print()
-player_move = input('Choose [r]ock, [s]cissors or [p]aper: ')
-print()
-
-if player_move == 'r':
-    player_move = rock
-elif player_move == 's':
-    player_move = scissors
-elif player_move == 'p':
-    player_move = paper
-else:
-    raise SystemExit('Invalid Input. Try again...')
-
-computer_random_number = random.randint(1, 3)
-
-computer_move = ''
-
-if computer_random_number == 1:
-    computer_move = rock
-elif computer_random_number == 2:
-    computer_move = scissors
-elif computer_random_number == 3:
-    computer_move = paper
-
-print(f'The computer choose {computer_move}.')
-
-if (player_move == rock and computer_move == scissors) or \
-        (player_move == scissors and computer_move == paper) or \
-        (player_move == paper and computer_move == rock):
-    print('You win!')
-elif player_move == computer_move:
-    print('Draw!')
-else:
-    print('You lose!')
+random.shuffle(password)
+print(f'This is your password: {"".join(password)}')
