@@ -22,4 +22,4 @@ for c in range(1, n_c + 1):
 
 print()
 random.shuffle(password)
-print(f'This is your password: -> {"".join(password)}')
+print(f'This is your password: {"".join(password)}')
