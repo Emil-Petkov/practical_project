@@ -15,6 +15,7 @@ display = []
 for _ in range(word_length):
     display.append("_")
 
+print(stages[6])
 print(' '.join(display))
 
 while not is_end_fo_the_game:
