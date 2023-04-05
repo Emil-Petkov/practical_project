@@ -1,7 +1,6 @@
 import string
 import random
 from ascii_art import asart
-import time
 
 password = []
 
@@ -33,5 +32,3 @@ n_symbols = int(input("How many symbols you want in your password? "))
 
 result = password_generator(n_letters, n_numbers, n_symbols)
 print(result)
-time.sleep(92)
-
