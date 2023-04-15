@@ -5,7 +5,7 @@ cska = [{"goalkeeper_name": ["Gustavo Busatto", "Dimitar Evtimov"]},
                      "Asen Donchev"]}]
 
 ########################################################################
-levski = [{"goalkeeper": ["Plamen Andreev", "Nikolay Mihaylov"]},
+levski = [{"goalkeeper_name": ["Plamen Andreev", "Nikolay Mihaylov"]},
           {"player_name": ["Marin Petkov", "Welton", "Asen Mitkov", "Ivelin Popov",
                        "Andrian Kraev", "Tsunami", "Kellian van der Kaap",
                        "Jose Cordoba", "Asen Chandarov", "Ronaldo"]}]
