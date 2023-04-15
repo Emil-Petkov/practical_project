@@ -81,7 +81,6 @@ if team_user == "cska":
 
 
 
-
 elif team_user.lower() == "levski":
     pass
 
