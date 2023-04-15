@@ -17,13 +17,12 @@ user_player = random.randint(1, 7)
 pc_player = random.randint(1, 7)
 
 game_over = False
-print("""Choice your team at: CSKA or Levski
-""")
+print("Choice your team at: CSKA or Levski\n")
 
 team_user = "cska"  # input("Choice Your team: ").lower()  # input
 
 if team_user == "cska":
-    print("""Choice your goalkeeper:\n1.Gustavo Busatto\n2.Dimitar Evtimov""")
+    print("Choice your goalkeeper:\n1.Gustavo Busatto\n2.Dimitar Evtimov")
     choice_goalkeeper = 1  # int(input(">>> "))
     if choice_goalkeeper == 1:
         keeper = cska[0]["goalkeeper_name"][0]
