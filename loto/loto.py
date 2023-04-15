@@ -21,4 +21,3 @@ for i in my_numbers:
         counter += 1
 
 print(f"\nYou have {counter} known numbers in the lottery game: Who wants to be f****d?")
-
