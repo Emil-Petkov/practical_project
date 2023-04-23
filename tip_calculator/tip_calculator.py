@@ -9,3 +9,4 @@ total_per_person = (bill + tip_as_percent) / people
 
 print()
 print(f"${total_per_person:.2f}")
+
