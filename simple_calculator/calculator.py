@@ -1,3 +1,5 @@
+import time
+
 def add(f_num, s_num):
     return f_num + s_num
 
@@ -19,6 +21,7 @@ while True:
 
     if user_input == "n":
         print("Have a nice day!")
+        time.sleep(5)
         break
     elif user_input == "y":
 
@@ -56,4 +59,5 @@ while True:
 
     else:
         print("Invalid choice.")
+        time.sleep(5)
         break
