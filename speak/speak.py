@@ -9,8 +9,8 @@ def speak_python(text):
 
 engine = pyttsx3.init()
 
-print("""* For exit() on the program write End command.
-______________________________________________
+print("""* For exit() on the program write "End" command.
+                                   ___
 
 Write anything and your computer will read the message.
 ** Only English language is supported. **
