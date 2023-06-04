@@ -28,3 +28,4 @@ speak_python("Have a nice day my friend : )")
 
 print("\nТhe program will close automatically after 5 seconds.")
 time.sleep(5)
+
