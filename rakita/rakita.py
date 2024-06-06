@@ -6,7 +6,6 @@ from gtts import gTTS
 
 pygame.mixer.init()
 
-
 print("""
  __        __         _                                   
  \ \      / /   ___  | |   ___    ___    _ __ ___     ___ 
@@ -27,6 +26,8 @@ print("""
  |_| \_\    \__,_|   |_|\_\   |_|    \__|    \__,_|       
                                                     
 """)
+
+
 def text_to_speech(text, lang):
     tts = gTTS(text=text, lang=lang)
     filename = "temp.mp3"
@@ -191,7 +192,7 @@ detailed_facts = {
                 },
                 2: {
                     "Заглавие": "Римски път",
-                    "Текст": "По калдъръмения римски път от редени камъни, минаващ в покрайнините на селото е минавал Александър Велики по време на своите завоевания."
+                    "Текст": "По калдъръмения римски път от редени камъни, минаващ в покрайнините на селото, според легенда е преминавал Александър Велики по време на своите завоевания."
 
                 }
             }
@@ -305,7 +306,7 @@ detailed_facts = {
                 },
                 2: {
                     "Title": "Roman Road",
-                    "Text": "Along the cobblestone Roman road, made of laid stones and passing through the outskirts of the village, Alexander the Great passed during his conquests."
+                    "Text": "According to legend, Alexander the Great passed along the cobbled Roman road made of laid stones, which runs on the outskirts of the village, during his conquests."
                 }
             }
         }
